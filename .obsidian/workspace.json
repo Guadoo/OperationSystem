@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "c9685e16fbd8e2cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6784563b4118d49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6eb82207148499f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "环境准备.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f021e7c3f621201",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a39ee2e5f8c634d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5047f2262c0937c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "066ad73cbf3b40b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32765bdbfcb6168b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bfe24a25793188fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "13e809f9196dc3b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "680592808b97c059",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "环境准备.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f01904dbaa82565",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "环境准备.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8b17cc754f724e2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b09b2032dbed372d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "环境准备.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "6eb82207148499f7",
+  "lastOpenFiles": []
+}
