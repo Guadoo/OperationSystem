@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fdc1eba90fdaadfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 基本概念.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 环境准备.md",
+                "file": "01 基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 环境准备.md",
+                "file": "01 基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 环境准备.md"
+                "file": "01 基本概念.md"
               }
             }
           }
@@ -139,6 +152,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "6eb82207148499f7",
-  "lastOpenFiles": []
+  "active": "fdc1eba90fdaadfb",
+  "lastOpenFiles": [
+    "00 环境准备.md",
+    "01 基本概念.md",
+    "附件/地址加法器.png",
+    "附件/8086CPU物理地址.png",
+    "Pasted image 20221024152213.png"
+  ]
 }
