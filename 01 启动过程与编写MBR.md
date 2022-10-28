@@ -94,5 +94,3 @@ SECTION MBR vstart=0x7c00 [^1]
 	db 0x55, 0xaa
 ```
 
-
-1. 0x7c00
