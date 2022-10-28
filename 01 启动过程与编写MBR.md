@@ -20,7 +20,7 @@
 |-|-|-|-|
 |0x000|0x3FF|1KB|Interrupt Vector Table(中断向量表)|
 
-### 1.6 检测完成后，调用BIOS中断0x19h用 call int 19h，此中断函数检测计算机有多少硬盘和软盘。
+### 1.6 检测完成后，调用BIOS中断0x19h 汇编语句为 call int 19h，此中断函数检测计算机有多少硬盘和软盘。
 
 ### 1.7 检测到任何可用的磁盘后，校验磁盘 0盘 0道 1扇区（1扇区 = 512B），当扇区最后两个字节内容分别是魔数 0x55 和 0xaa，BIOS认为此扇区存在可执行的主引导记录（MBR）。
 
@@ -29,15 +29,23 @@
 |-|-|-|-|
 |0x7C00|0x7DFF|512KB|BIOS加载 0盘 0道 1扇区 MBR 到此地址段|
 
-### 1.9 BIOS 跳转至 0x7c00用 jmp 0 : 0x7c00。地址跳转至0x7c00后，启动由BIOS程序转到MBR。
+### 1.9 BIOS 跳转至 0x7c00 汇编语句为 jmp 0 : 0x7c00。地址跳转至0x7c00后，启动由BIOS程序转到MBR。
 
 ## 2 Main Boot Record（MBR） 主引导记录
+
+### 2.1 NASM 汇编语法说明
+
+|汇编语句|说明|
+|-|-|
+|SECTION MBR vstart=0x7c00|==vstart== 告诉编译器把其后面的汇编语句对应于地址编码为 0x7c00|
+
+
 
 
 ```assembler
 ;main boot record
 ;--------------------------------------------------------------------------------
-SECTION MBR vstart=0x7c00 [^1]
+SECTION MBR vstart=0x7c00
 	mov ax,cs
 	mov ds,ax
 	mov es,ax
