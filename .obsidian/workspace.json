@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 启动过程与编写MBR.md",
+                "file": "01 计算机启动过程与编写MBR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 启动过程与编写MBR.md",
+                "file": "01 计算机启动过程与编写MBR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 启动过程与编写MBR.md",
+                "file": "01 计算机启动过程与编写MBR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 启动过程与编写MBR.md"
+                "file": "01 计算机启动过程与编写MBR.md"
               }
             }
           }
@@ -136,11 +136,15 @@
     "width": 300,
     "collapsed": true
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "1a0a277ea09f8edb",
   "lastOpenFiles": [
     "00 环境准备.md",
-    "01 启动过程与编写MBR.md",
+    "01 计算机启动过程与编写MBR.md",
     "99 基本概念.md",
+    "附件/MBR.png",
     "附件/rseg.png",
     "附件/地址加法器.png",
     "附件/8086CPU物理地址.png",
