@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 计算机启动过程与编写MBR.md",
+                "file": "99 基本概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 计算机启动过程与编写MBR.md",
+                "file": "99 基本概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 计算机启动过程与编写MBR.md",
+                "file": "99 基本概念.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 计算机启动过程与编写MBR.md"
+                "file": "99 基本概念.md"
               }
             }
           }
@@ -141,8 +141,8 @@
   },
   "active": "1a0a277ea09f8edb",
   "lastOpenFiles": [
-    "00 环境准备.md",
     "01 计算机启动过程与编写MBR.md",
+    "00 环境准备.md",
     "99 基本概念.md",
     "附件/MBR.png",
     "附件/rseg.png",
